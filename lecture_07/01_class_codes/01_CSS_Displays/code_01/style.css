@@ -1,0 +1,22 @@
+.main-div-wrapper{
+    background-color: aqua;
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+#child-div-1{
+    background-color:blue;
+    width:100px;
+    height:100px;
+}
+
+#child-div-2{
+    background-color:brown;
+    width:100px;
+    height:100px;
+}

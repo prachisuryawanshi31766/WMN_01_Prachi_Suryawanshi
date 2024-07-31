@@ -1,0 +1,23 @@
+.main-div-wrapper{
+    background-color:rgb(147, 176, 2);
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+#child-div-1
+{
+    background-color:rgb(8, 211, 211);
+    width:100px;
+    height:100px;
+}
+
+#child-div-2
+{
+    background-color:rgb(179, 117, 238);
+    width:100px;
+    height:100px;
+}

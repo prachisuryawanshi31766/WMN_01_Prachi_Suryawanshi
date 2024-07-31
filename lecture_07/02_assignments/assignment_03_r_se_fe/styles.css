@@ -1,0 +1,26 @@
+.main-div-wrapper
+{
+    background-color:blueviolet;
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:flex-end;
+
+}
+
+#child-div-1
+{
+    background-color:rgb(2, 239, 160);
+    width:100px;
+    height:100px;
+}
+
+#child-div-2
+{
+    background-color:rgb(92, 238, 238);
+    width:100px;
+    height:100px;         
+}

@@ -1,0 +1,22 @@
+.main-div-wrapper{
+    background-color: rgb(82, 224, 69);
+    height:100vh;
+    width:100vw;
+
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#child-div-1{
+    background-color: rgb(17, 182, 237);
+    height:100px;
+    width:100px;
+}
+
+#child-div-2{
+    background-color: rgb(231, 84, 31);
+    height:100px;
+    width:100px;
+}
