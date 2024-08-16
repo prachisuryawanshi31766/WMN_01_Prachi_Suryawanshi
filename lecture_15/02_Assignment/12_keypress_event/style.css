@@ -1,0 +1,39 @@
+.wrapper
+{
+    width:100vw;
+    min-height: 100vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    width:250px;
+    min-height:250px;
+
+    background-color: rgb(246, 149, 4);
+    border-radius: 20px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px; 
+}
+
+.keypress_handler
+{
+    width:80%;
+    min-height: 60%;
+
+    background-color: rgb(226, 18, 188);
+    border-radius: 20px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

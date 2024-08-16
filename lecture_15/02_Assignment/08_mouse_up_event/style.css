@@ -1,0 +1,39 @@
+.wrapper
+{
+    width:100vw;
+    min-height:100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    width:250px;
+    min-height:250px;
+
+    background-color: rgb(76, 76, 236);
+    border-radius: 20px;
+    gap:10px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mouse_up_handler
+{
+    width:80%;
+    min-height: 40%;
+
+    background-color: rgb(212, 239, 5);
+    border-radius: 20px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
