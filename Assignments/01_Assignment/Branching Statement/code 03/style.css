@@ -1,0 +1,42 @@
+.wrapper
+{
+    width:100vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(120, 238, 238);
+}
+
+.result
+{
+    width:600px;
+    min-height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(209, 122, 183);
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-heading
+{
+    
+    background-color: rgb(231, 212, 106);
+    font-size: larger;
+
+    width:600px;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
