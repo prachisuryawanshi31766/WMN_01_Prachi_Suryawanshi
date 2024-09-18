@@ -1,0 +1,37 @@
+.wrapper
+{
+    width:100vw;
+    min-height: 100vh;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 199, 83);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.main-heading
+{
+    
+    background-color: rgb(209, 186, 55);
+    font-size: x-large;
+
+    width:500px;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.result
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
+    color: black;
+}
