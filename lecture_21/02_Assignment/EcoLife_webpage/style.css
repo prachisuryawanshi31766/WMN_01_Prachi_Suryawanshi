@@ -1,0 +1,468 @@
+.wrapper /* whole page wrapper*/
+{
+    width:100vw;
+    min-height: 200vh;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(5, 120, 120);
+}
+
+.wrapper-container /* page container*/
+{
+    width:100%;
+    min-height:100%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+    /*-------- Dropdown list css--------*/
+
+.dropdown-wrapper  /*dropdown menu wrapper*/
+{
+    width:20vw;
+    min-height: 200vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-color: rgb(253, 246, 246);   
+}
+
+.dropdown-container /*dropdown container*/
+{
+    width:100%;
+    min-height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.h3-heading
+{
+    color: deepskyblue;
+}
+.dropdown-list
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    top:10px;
+    bottom:10px;
+    left:10px;
+    position:absolute;
+    font-size: medium;
+
+}
+.Sustainable-Living,
+.Environmental-Conservation,
+.Eco-Friendly_Travel,
+.Food_and_Wellness,
+.Community
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap:8px;
+    color:rgb(31, 26, 26);
+    text-decoration: none;
+    
+}
+
+/*--------------Image CSS----------*/
+
+.images-wrapper
+{
+    width:80vw;
+    min-height: 100vh;
+}
+
+.images-container
+{
+    width:100%;
+    min-height:100%;
+}
+
+.row1-images,
+.row2-images,
+.row3-images,
+.row4-images,
+.row5-images,
+.row6-images
+{
+    width:1000px;
+    height:200px;
+
+    background-color:antiquewhite ;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.image1-container,
+.image2-container,
+.image3-container,
+.image4-container,
+.image5-container,
+.image6-container
+{
+    width:195px;
+    height:200px;
+    background-color: aquamarine;
+}
+
+/* ----first row all images(6 images)---*/
+
+.row1_image1
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/closeup-image-solar-panels-rooftop-capturing-warm-glow-setting-sun_331695-41965.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row1_image2
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/mysterious-forest_1276750-4179.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row1_image3
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/bouquet-flowers-with-word-flowers-bottom_1130573-93207.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row1_image4
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/photorealistic-wild-tuna-day-celebration_23-2151307869.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row1_image5
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/wind-farm_1398-3571.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row1_image6
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/vacant-lot-transformed-into-thriving-urban-farm-with-lush-vegetation_1236475-3982.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+/* ----second row all images (6 images)---*/
+
+.row2_image1
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/ecofriendly-tote-bag_644450-14378.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row2_image2
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/bicycle-is-parked-woods-with-sun-it_783884-506642.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row2_image3
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/recycle-logo-sustainable-fabric-tag_641503-139770.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row2_image4
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/sunset-sea-with-yellow-sunset_1282123-3968.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row2_image5
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/caribbean-sea-turtle_1267718-34794.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row2_image6
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/infographic-comparing-different-types-renewable-energy-sources_1314467-158026.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+ /* Third row all images (6 images)---*/
+
+.row3_image1
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-vector/ecology-infographic-with-different-sections_23-2148453839.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row3_image2
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/sky-nature-hill-view-sunny-season_1142-1043.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row3_image3
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/beautiful-park_1417-1419.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row3_image4
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/tropical-flower-shrub-bush-fence-tree-isolated-plant_662214-262381.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row3_image5
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/bushy-tree-mild-green-ar-5243-style-raw-stylize-750-job-id-a968f13203164a278c7c4cd27752737a_343960-87052.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row3_image6
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/sunset-time-tropical-beach-sea-with-coconut-palm-tree_74190-1075.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+
+/* ----fourth row all images(6 images)---*/
+
+.row4_image1
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/bustling-farm-market-scene-with-vibrant-colors-diverse-produce-lively-atmosphere-capturin_1097265-100164.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row4_image2
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/red-rose-is-front-sunset_1340-41473.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row4_image3
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/rainbow-end-road-landscape_23-2151596731.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row4_image4
+{
+    width:100%;
+    height:100%;
+
+   
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478109.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row4_image5
+{
+    width:100%;
+    height:100%;
+
+
+    border-radius: inherit;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/field-surrounded-by-hills-bare-trees-covered-snow-sunset-winter_181624-8202.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row4_image6
+{
+    width:100%;
+    height:100%;
+
+    
+    border-radius: inherit;
+    background-size: cover;
+    background-image: url('https://t3.ftcdn.net/jpg/01/83/97/14/240_F_183971456_BXD2EbaHnMgqD8LflfBUq1xSHWOMV5KX.jpg');
+}
+
+/* fifth row all images (6 images)---*/
+
+.row5_image1
+{
+    width:100%;
+    height:100%;
+
+    
+    border-radius: inherit;
+    background-size: cover;
+
+    background-image: url('https://img.freepik.com/free-photo/selective-focus-shot-male-hand-holding-fall-leaf-against-sunshine_181624-36497.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row5_image2
+{
+    width:100%;
+    height:100%;
+
+   
+    border-radius: inherit;
+    background-size: cover;
+
+    background-image: url('https://img.freepik.com/premium-photo/mystical-ancient-ruins-surrounded-by-lush-jungle-archaeological-adventure-highquality-realistic_1310094-46988.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row5_image3
+{
+    width:100%;
+    height:100%;
+
+   
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/silhouettes-hills-street-lamps-cloudy-sky-beautiful-sunset_181624-28611.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row5_image4
+{
+    width:100%;
+    height:100%;
+
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/planet-earth-surrounded-by-nature-vegetation_23-2151587894.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row5_image5
+{
+    width:100%;
+    height:100%;
+
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/sunrise-dal-lake-kashmir-india_1232-4766.jpg?ga=GA1.1.1400505271.1727680896&semt=ais_hybrid');
+}
+.row5_image6
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/beautiful-starry-sky-town_23-2151642681.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+
+/* sixth row all images (6 images)---*/
+
+.row6_image1
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/sun-with-pine-tree_53876-30527.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row6_image2
+{
+    width:100%;
+    height:100%;
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/forest-trees-with-bluebell-flowers-foreground_963338-36277.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+
+.row6_image3
+{
+    width:100%;
+    height:100%;
+
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/exotic-plant-near-flowers_23-2147829267.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row6_image4
+{
+    width:100%;
+    height:100%;
+
+
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/beautiful-tropical-pacific-coast-costa-rica_23-2148248839.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row6_image5
+{
+    width:100%;
+    height:100%;
+
+    
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/pink-flowers-forest_946021-368005.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
+.row6_image6
+{
+    width:100%;
+    height:100%;
+
+   
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/aokigahara-forest-highly-detailed-style_23-2151570274.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid');
+}
