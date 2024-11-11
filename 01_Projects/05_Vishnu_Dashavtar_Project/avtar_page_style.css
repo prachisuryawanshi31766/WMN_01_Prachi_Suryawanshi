@@ -1,0 +1,693 @@
+
+
+.wrapper
+{
+    width:98vw;
+    min-height: 100vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: rgb(4, 201, 135);
+}
+/*----------------container of webpage----------*/
+.container
+{
+    width:100%;
+    min-height: 100%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: aqua;
+}
+ /*-----------header section-----------*/
+.header-section
+{
+    width:100%;
+    height:20vh;
+
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color:sandybrown;
+    border-bottom: 1px solid #ddd;
+    padding:10px;
+    background-image: url('https://i.pinimg.com/474x/5b/44/bf/5b44bf6cbdb938a9a40a5736769c8430.jpg');
+    background-size: cover;
+   
+}
+
+/*----- Avtar page----*/
+.avtar-heading
+{
+    color: rgb(230, 231, 232);
+    font-size:40px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 9, 46);
+}
+
+
+/*-----dropdown button-----*/
+
+.dropdown_container {
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right:10px;
+}
+.dropdown_button
+{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url("https://img.freepik.com/premium-vector/hamburger-website-navigation-menu-hamburger-menu-icons_1254296-1057.jpg?uid=R152547953&ga=GA1.1.1007134126.1726821425&semt=ais_hybrid");
+    align-items: center;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*-------dropdown list------*/
+.dropdown_list {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+   
+    
+    gap: 5px;
+    padding: 5px;
+    position: absolute;
+    right:2px;
+    margin-top: 28%;
+    background-color: rgb(217, 226, 94);
+    border-radius: 25px;
+    
+}
+
+.show_element {
+    visibility: visible;
+}
+
+.hide_element {
+    visibility: hidden;
+}
+
+.dropdown_list a {           
+    font-size: 18px;
+    text-align: center;
+    color: rgb(21, 0, 13);
+    top:10px;
+}
+
+.dropdown_list a:hover {          
+   background-color:  rgb(60, 246, 246);
+    color: black;
+}
+
+
+
+/*---------------------main section ---------------*/
+.main-section
+{
+    width:100vw;
+    min-height:80vh;
+
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color:teal;
+    background-image: url('https://i.pinimg.com/474x/d0/1e/fa/d01efa0c2bf1e4ea5f3830478de94127.jpg');
+    background-size: cover;
+}
+
+.main-section-container
+{
+    width:100%;
+    height:100%;
+}
+
+.main-section-avtar-heading
+{
+    color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    bottom:20px;
+}
+
+.main-section-image-container
+{
+    height:350px;
+    width:300px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    border: 3px solid #1a1818;
+    border-radius: 10px;
+    object-fit: cover;
+   
+    margin-left: 10px;
+    
+}
+
+
+.h2-heading
+{
+    color:rgb(230, 249, 58);
+    text-decoration:underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+    
+}
+
+.main-section-image-info
+{
+    height:500px;
+    width:700px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border: 3px dotted #171717;
+    border-radius: 10px;
+    object-fit: cover;
+   
+    margin-left: 20px;
+    font-size: larger;
+    gap:5px;
+}
+
+.main-section-image-information
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(249, 246, 246);
+    margin-right: 50px;
+
+     gap:70px;
+     font-size:medium ;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     padding:30px;
+     margin:40px;
+     
+}
+
+.Matsya-avtar-image,
+.Kurma-avtar-image,
+.Varaha-avtar-image,
+.Narasimha-avtar-image,
+.Vamana-avtar-image,
+.Parashurama-avtar-image,
+.Shree_Ram-avtar-image,
+.Shree_krishna-avtar-image,
+.Buddha-avtar-image,
+.Kalki-avtar-image
+{
+    width:70vw;
+    height:350px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top:50px;
+    transition: transform 2.2s ease, opacity 2.2s ease;
+   
+}
+
+.Matsya-avtar-image-container,
+.Kurma-avtar-image-container,
+.Varaha-avtar-image-container,
+.Narasimha-avtar-image-container,
+.Vamana-avtar-image-container,
+.Parashurama-avtar-image-container,
+.Shree_Ram-avtar-image-container,
+.Shree_krishna-avtar-image-container,
+.Buddha-avtar-image-container,
+.Kalki-avtar-image-container
+{
+    width:100%;
+    height:100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    border: 0px dotted rgb(231, 143, 143);
+    margin-bottom:50px;
+
+    gap:60px;
+    
+
+    /*background-color: bisque;*/
+}
+
+.Matsya-avtar-info-container,
+.Kurma-avtar-info-container,
+.Varaha-avtar-info-container,
+.Narasimha-avtar-info-container,
+.Vamana-avtar-info-container,
+.Parashurama-avtar-info-container,
+.Shree_Ram-avtar-info-container,
+.Shree_krishna-avtar-info-container,
+.Buddha-avtar-info-container,
+.Kalki-avtar-info-container
+{
+    min-height:420px;
+    width:800px;
+
+    border: 0px solid rgb(247, 208, 208);
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.Matsya-avtar-info,
+.Kurma-avtar-info,
+.Varaha-avtar-info,
+.Narasimha-avtar-info,
+.Vamana-avtar-info,
+.Parashurama-avtar-info,
+.Shree_Ram-avtar-info,
+.Shree_krishna-avtar-info,
+.Buddha-avtar-info,
+.Kalki-avtar-info
+{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    background-size: cover;
+    
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+/*Matsya avtar image*/
+.Matsya-avtar-image1
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/736x/88/6c/5e/886c5e1bd2a5b8e3d8b5e6a9eecb694d.jpg');
+}
+
+.Matsya-avtar-image2
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/e0/55/88/e05588d3f30977e94898b2debf977559.jpg');
+}
+
+.Matsya-avtar-image3
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/enabled_lo/474x/a9/60/91/a96091c678f4aeca131631571b252ccf.jpg');
+}
+
+/*Kurma avtar image */
+.Kurma-avtar-image1 
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/18/c1/a7/18c1a7edd963f270e4f39645582b9624.jpg');
+}
+
+.Kurma-avtar-image2 
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/cb/54/78/cb54782158663707be891037ccd8be00.jpg');
+}
+
+.Kurma-avtar-image3 
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/83/0f/16/830f167965acbf892dc1223af2d8963c.jpg');
+}
+
+/*Varaha avtar image*/
+.Varaha-avtar-image1
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/13/fb/5b/13fb5b9a632f1ef8b0175a0b2234a89f.jpg');
+}
+
+.Varaha-avtar-image2
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/8b/3e/47/8b3e474a761134e4192088478214a8a5.jpg');
+}
+
+.Varaha-avtar-image3
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/9b/01/d0/9b01d08807298b424d886f2c6f3e0db0.jpg');
+}
+
+
+/*Narasimha Avtar*/
+.Narasimha-avtar-image1
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/d6/ff/d8/d6ffd8e426ec5f9226c5fad6b7a6fba7.jpg');
+
+}
+
+.Narasimha-avtar-image2
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/aa/8e/4d/aa8e4d0452bf42b2a2bcd55050a85059.jpg');
+
+}
+
+.Narasimha-avtar-image3
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/10/84/7e/10847eb85e7f92a4e9fc8d64cf9fc9c8.jpg');
+
+}
+
+/*Vamana avtar image */
+
+.Vamana-avtar-image1
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/78/a8/f7/78a8f72d1824d41390cccfaf5e25c488.jpg');
+}
+
+
+.Vamana-avtar-image2
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/be/4b/26/be4b268a1eb065a20777c2fbd8d53116.jpg');
+}
+
+
+.Vamana-avtar-image3
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+
+    background-image: url('https://i.pinimg.com/474x/c8/b0/14/c8b0140eaa55e506943e6215ac60bc67.jpg');
+}
+
+/*Parashurama  avtar image*/
+
+.Parashurama-avtar-image1
+{
+height:100%;
+width:100%;
+border: 2px solid rgb(247, 208, 208);
+object-fit:cover;
+background-size: cover;
+
+background-image: url('https://i.pinimg.com/474x/2d/20/9a/2d209a5067bfe910065c9f9d5898e700.jpg');
+}
+
+.Parashurama-avtar-image2
+{
+height:100%;
+width:100%;
+border: 2px solid rgb(247, 208, 208);
+object-fit:cover;
+background-size: cover;
+
+background-image: url('https://i.pinimg.com/474x/fe/88/88/fe88886217a561173db151e06e3de5a0.jpg');
+}
+
+.Parashurama-avtar-image3
+{
+height:100%;
+width:100%;
+border: 2px solid rgb(247, 208, 208);
+object-fit:cover;
+background-size: cover;
+
+background-image: url('https://i.pinimg.com/474x/ec/2c/66/ec2c6625d0a2a00e28bf0b8559a2eb8b.jpg');
+}
+
+
+/*Shree Ram avtar image*/
+.Shree_Ram-avtar-image1
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/e3/16/d4/e316d490f35c58851a2b870891f7d1cc.jpg');
+    
+}
+
+.Shree_Ram-avtar-image2
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/enabled_lo/474x/2c/5c/4f/2c5c4f4bc19487e53343ab145aeaf94c.jpg');
+}
+
+.Shree_Ram-avtar-image3
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/e4/c4/da/e4c4da3b9b4b506e4162425eb78d911f.jpg');
+}
+
+/*Shree Krishna avtar image*/
+.Shree_krishna-avtar-image1
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/bd/30/3b/bd303b3c3fcc1089d640d23df77eb9b3.jpg');
+}
+
+.Shree_krishna-avtar-image2
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/2a/5a/b7/2a5ab72e25b486f54a2819da7ea66b5d.jpg');
+}
+
+.Shree_krishna-avtar-image3
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/e8/ea/66/e8ea66855ffeecfc5da1c3c0d91b4433.jpg');
+}
+
+/*Buddha avtar image*/
+.Buddha-avtar-image1
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/ec/a2/a4/eca2a41f62d57e7824a898cbe4751eba.jpg');
+}
+
+.Buddha-avtar-image2
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/enabled_lo/474x/f9/fb/f4/f9fbf4ab033bd0932757b6af666d5156.jpg');
+}
+
+.Buddha-avtar-image3
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/enabled_lo/474x/d6/0d/b9/d60db9de24c34abec13ad20182cf87ee.jpg');
+}
+
+/*Kalki avtar image*/
+.Kalki-avtar-image1
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/97/43/ab/9743ab0718dec90d1a0038f4a1747b67.jpg');
+}
+
+.Kalki-avtar-image2
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/73/72/56/7372569ba887217a92a868548ad59e30.jpg');
+}
+
+.Kalki-avtar-image3
+
+{
+    height:100%;
+    width:100%;
+    border: 2px solid rgb(247, 208, 208);
+    object-fit:cover;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/474x/fa/95/fb/fa95fba47e6173e33f64f12101470ead.jpg');
+}
+
+
+/*for the image transform*/
+
+.Matsya-avtar-image:hover,
+.Kurma-avtar-image:hover,
+.Varaha-avtar-image:hover,
+.Narasimha-avtar-image:hover,
+.Vamana-avtar-image:hover,
+.Parashurama-avtar-image:hover,
+.Shree_Ram-avtar-image:hover,
+.Shree_krishna-avtar-image:hover,
+.Buddha-avtar-image:hover,
+.Kalki-avtar-image:hover
+{
+    transform:scale(3.04);
+    transform: translateY(8px); /* Move the image up slightly on hover */
+    opacity: 2.0; /* Slightly fade out */
+    cursor: pointer;
+}
