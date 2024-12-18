@@ -1,0 +1,15 @@
+.loginpage-container {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+}
+
+.loginpage-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+}
